@@ -1,0 +1,44 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# API keys and secrets
+*.key
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch / Machine Learning Models
+models/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.onnx
+
+# Data and Databases
+data/
+chroma_db/
+*.sqlite3
+*.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Submission and Report Files
+*.pdf
+report.tex
+report images/

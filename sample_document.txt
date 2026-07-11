@@ -1,0 +1,6 @@
+The Transformer is a deep learning architecture developed by Google researchers in 2017, introduced in the paper "Attention Is All You Need".
+Unlike recurrent neural networks (RNNs) that process data sequentially, Transformers process all parts of the input data simultaneously.
+This parallelization significantly reduces training times and allows the model to handle long-range dependencies in text much more effectively.
+The core mechanism of the Transformer is "Self-Attention", which allows the model to weigh the importance of different words in a sentence relative to one another.
+Modern large language models, including GPT-4, Llama 3, and Claude, are all based on the Transformer architecture.
+The architecture consists of an Encoder and a Decoder, though many modern models (like the GPT series) are decoder-only architectures optimized for next-token prediction.
