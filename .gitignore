@@ -16,8 +16,8 @@ __pycache__/
 *$py.class
 
 # PyTorch / Machine Learning Models
-models/
-*.pth
+# models/
+# *.pth
 *.pt
 *.ckpt
 *.h5
