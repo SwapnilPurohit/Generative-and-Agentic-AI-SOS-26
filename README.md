@@ -1,9 +1,4 @@
-# Generative and Agentic AI 🚀
-
-[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
-[![CrewAI](https://img.shields.io/badge/CrewAI-Multi--Agent-FF7F50.svg)](https://crewai.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Generative and Agentic AI 
 
 A comprehensive exploration of modern Artificial Intelligence, spanning from the mathematical foundations of generative models to the orchestration of autonomous LLM agents. This repository contains raw, from-scratch implementations of Variational Autoencoders (VAEs), Denoising Diffusion Probabilistic Models (DDPMs), and various Agentic architectures including ReAct and Retrieval-Augmented Generation (RAG).
 
