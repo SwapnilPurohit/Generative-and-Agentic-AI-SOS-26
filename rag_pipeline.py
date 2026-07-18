@@ -104,8 +104,10 @@ Question:
         temperature=0.0
     )
     
+    answer = response.choices[0].message.content
     print("\nAssistant:")
-    print(response.choices[0].message.content)
+    print(answer)
+    return answer
 
 if __name__ == "__main__":
     # Ensure our sample document exists

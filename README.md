@@ -11,6 +11,7 @@ A comprehensive exploration of modern Artificial Intelligence, spanning from the
   - [Conversational Memory & Tool Calling](#conversational-memory--tool-calling)
   - [ReAct Architecture](#react-architecture)
   - [RAG & Multi-Agent Systems](#rag--multi-agent-systems)
+  - [Capstone: Agentic DDPM Controller](#capstone-agentic-ddpm-controller)
 - [Installation & Setup](#installation--setup)
 
 ---
@@ -47,6 +48,9 @@ The second half transitions from generating pixels to orchestrating intelligence
 ### RAG & Multi-Agent Systems
 - **`rag_pipeline.py`**: A Retrieval-Augmented Generation (RAG) system using `ChromaDB` and HuggingFace `sentence-transformers`. It embeds local text documents into a vector database, performs similarity searches based on user queries, and feeds the relevant context directly to the LLM.
 - **`multi_agent.py`**: Orchestrates a sequential collaboration between two autonomous agents using **CrewAI**. A *Senior AI Research Analyst* extracts complex technical concepts, and a *Technical Content Strategist* transforms those notes into engaging, easy-to-understand educational content.
+
+### Capstone: Agentic DDPM Controller
+- **`capstone_agent.py`**: The grand integration of the project. This master ReAct Agent acts as a conversational interface capable of autonomously resolving queries by searching the local `ChromaDB` RAG vector store for AI concepts, and utilizing a custom tool to dynamically load the PyTorch DDPM model, generate novel MNIST digits on command, and save the result to disk.
 
 ---
 

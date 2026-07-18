@@ -41,4 +41,5 @@ Thumbs.db
 # Submission and Report Files
 *.pdf
 report.tex
+endterm_report.tex
 report images/
